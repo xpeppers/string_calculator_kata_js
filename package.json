@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha stringcalculator_test.js",
+    "mob": "bash ./mob.sh $@",
     "coverage": "nyc --reporter=html --reporter=text mocha"
   },
   "keywords": [],
